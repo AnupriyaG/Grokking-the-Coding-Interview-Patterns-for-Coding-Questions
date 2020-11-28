@@ -1,5 +1,7 @@
 #Input: [2, 1, 5, 1, 3, 2], k=3 
-#Output: 9
+#Output: 
+#Time Complexity : O(N)
+#Space Complexity O(1)
 
 def sliding_Window(arr: list, k: int)->int:
     sum1 = 0

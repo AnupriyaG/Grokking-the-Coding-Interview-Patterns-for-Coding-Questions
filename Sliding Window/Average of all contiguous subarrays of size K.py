@@ -4,6 +4,7 @@ import time
 
 #Brute Force approach
 #Time complexity O(N*k)
+#Space Complexity(K)
 def brute_force(arr: list, k: int) -> list:
     result = []
     for i in range(len(arr)-k+1):
@@ -17,6 +18,7 @@ def brute_force(arr: list, k: int) -> list:
 
 #Sliding window
 #Time complexity O(N)
+#Space Complexity(K)
 def sliding_window(arr: list, k: int) -> list:
     result=[]
     sum1 =0
